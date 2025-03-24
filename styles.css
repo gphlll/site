@@ -3,12 +3,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    color: #333;
-    background-image: url('background.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    color: #444;
     
 }
 
@@ -19,14 +14,43 @@ body {
 }
 
 header {
-    background: #333;
-    color: #fff;
-    padding: 20px 0;
+    background: #F2FEBB;
+    color: #f680ec;
+    padding: 30px 0;
 }
 
 header h1 {
     margin: 0;
     text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #f680ec;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+img {
+    height: auto;
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+    
+img:hover {
+    transform: scale(1.05);
 }
 
 nav ul {
@@ -46,8 +70,8 @@ nav ul li a {
 }
 
 .hero {
-    background: url('img/backgroung2.jpg') no-repeat center center/cover;
-    color: #fff;
+    background: url('img/backgroung.png') no-repeat center center/cover;
+    color: #444;
     padding: 100px 0;
     text-align: center;
 }
@@ -55,6 +79,7 @@ nav ul li a {
 .hero h2 {
     font-size: 2.5em;
     margin-bottom: 10px;
+    color: #444;
 }
 
 .hero p {
@@ -77,10 +102,11 @@ nav ul li a {
 }
 
 .services ul li {
-    background: #f4f4f4;
+    background: #f680ec;
     margin: 10px 0;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 50px;
+    color:#fff;
 }
 
 table {
